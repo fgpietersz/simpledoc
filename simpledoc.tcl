@@ -186,6 +186,7 @@ proc do_file {infile outfile} {
 	set fd [open $outfile w+]
 	puts $fd [subst $header]
 	if {$index ne {}} {
+		puts $fd $index
 		puts $fd "<hr />"
 	}
 	puts $fd $html
