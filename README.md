@@ -1,4 +1,4 @@
-#Simple Doc
+# Simple Doc
 
 A simple documentation extractor for TCL. The aim is a minimal literate programming tool.
 
