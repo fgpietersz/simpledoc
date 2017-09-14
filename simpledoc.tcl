@@ -1,6 +1,5 @@
 #=Simple Doc
 #TCL documentation generator
-#==Intro
 #See end of file for copyright notice and license terms.
 #Convert Tcl script with structured text style markup to HTML.
 
@@ -289,7 +288,7 @@ proc text2html {x} {
 			set title_text [string range $i $level end]
 			if {$page_title == {} && $mlevel == 1} {set page_title $title_text}
 			append out "<h$mlevel><a name=\"[incr anchor]\">$title_text</a></h$mlevel>"
-			append index "<h$mlevel><a href=\"#$anchor\">$title_text</a></h$mlevel>"
+			append index "<a href=\"#$anchor\">$title_text</a><br>"
 			set mode para
 			continue
 		}
