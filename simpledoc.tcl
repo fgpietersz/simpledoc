@@ -123,7 +123,7 @@ set footer {</body>}
 
 #=Procedure definitions
 
-#==do_file 
+#==do_file
 # Handles a single file.
 
 #It separates the file, line by line into code and comment chunks and passes them to he appropriate functions to markup.
@@ -227,7 +227,7 @@ proc do_directory {dir ext} {
 }
 
 #==text2html
-#Convert list of lines of structured text to HTML, 
+#Convert list of lines of structured text to HTML,
 #Arguments, text to be converted, current mode of conversion, which should be provided by the last return value.
 
 proc text2html {x} {
